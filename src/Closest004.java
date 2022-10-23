@@ -33,6 +33,7 @@ public class Closest004 {
         };
 
         Point midXPoint = getMidXPoint(points, 0, 5);
+        System.out.println(1);
         System.out.println(midXPoint.x == 5);
 
         midXPoint = getMidXPoint(points, 3, 5);
